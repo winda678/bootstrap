@@ -1,0 +1,607 @@
+body {
+    font-family: "Inconsolata", monospace;
+    color: #0d1e2d;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .section {
+    padding: 7rem 0;
+  }
+  
+  .filters a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    font-family: nunito sans;
+    font-size: 16px;
+    left: -1;
+  }
+  
+  .filters a:hover, .filters a:focus, .filters a:active {
+    text-decoration: none;
+  }
+  
+  .filters a:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .filters a.active {
+    color: #000;
+  }
+  
+  .filters a.active:before {
+    content: "";
+    position: absolute;
+    padding-left: 5px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.7rem;
+    font-family: Montserrat;
+  
+  }
+  .button{
+  
+  color:black;
+      background:white;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px white;
+      transition: all ease-in-out 0.3s;
+      font-size: 13px;
+      white-space: nowrap;
+      z-index: 2;
+  }
+  .help
+  {
+    padding-top:40px;
+    font-family:sans-serif;
+    font-size:30px;
+    padding-left: 115px;
+    font-weight: bold;
+  }
+  .tulisan{
+    padding-left: 115px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top:-20px;
+  }
+  .buttona{
+    color:white;
+      background: #744FC6;
+      padding: 9px 15px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px  #744FC6;
+      font-family: sans-serif;
+      margin-left: 115px;
+  }
+  .buttonb{
+    color:#744fc6;
+      background:#FFFFFF;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border:#744fc6;
+      font-family: sans-serif;
+      border: 1px solid #744FC6;
+      box-sizing: border-box;
+  }
+  .gambarpojok1
+{
+position: absolute;
+left: -0.4%;
+right: -0.1%;
+top: 2.3%;
+bottom: -32.8%;
+width: 600px;
+height: 500px;
+
+background: linear-gradient(180deg, rgba(224, 196, 252, 0.9) 0%, rgba(144, 198, 253, 0.9) 100%);
+border-radius: 30px;
+transform: rotate(-20.43deg);
+margin-left: 1050px;
+margin-top: -200px;
+}
+.gamabar3{
+  position: relative;
+  padding-top: -1000px;
+  margin-top: -300px;
+  width: 400px;
+  height: 200px;
+}
+.icon15{
+  margin-left: 700px;
+  margin-top: 170px;
+}
+.tulisan1
+{
+  font-size: 30px;
+  font-family: nunito sans;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 630px;
+}
+.boxedku
+{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 550px;
+    top: 580px;
+    
+    background:#FFFFFF;
+    box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+    border-radius: 16px;
+}
+.icon1{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 600px;
+bottom: -20px;
+z-index: 1;
+}
+.tulisan2{
+  position: absolute;
+width: 171px;
+height: 20px;
+left: 650px;
+bottom: -0px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+
+color: #744FC6;
+}
+
+.tulisan3{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 650px;
+bottom: -25px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.icon2{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 600px;
+bottom: -110px;
+z-index: 1;
+}
+
+.tulisan4{
+  position: absolute;
+width: 220px;
+height: 20px;
+left: 650px;
+bottom: -88px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+
+color: #744FC6;
+}
+.tulisan5{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 650px;
+bottom: -114px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.icon3{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 600px;
+bottom: -200px;
+z-index: 1;
+}
+
+.tulisan6{
+  position: absolute;
+width: 136px;
+height: 20px;
+left: 650px;
+bottom:-175px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+
+color: #744FC6;
+}
+
+.tulisan7{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 650px;
+bottom: -205px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.icon4{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 600px;
+bottom: -290px;
+z-index: 1;
+}
+
+.tulisan8{
+  position: absolute;
+width: 190px;
+height: 20px;
+left: 650px;
+bottom: -265px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+
+color: #744FC6;
+}
+
+.tulisan9{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 650px;
+bottom: -292px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.icon5{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 600px;
+bottom: -370px;
+z-index: 1;
+}
+
+.tulisan10{
+  position: absolute;
+width: 114px;
+height: 20px;
+left: 650px;
+bottom: -350px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+
+color: #744FC6;
+}
+
+.tulisan11{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 650px;
+bottom: -374px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.gambar4{
+  position: absolute;
+width: 2485px;
+height: 500px;
+left: 0px;
+bottom: -1100px;
+
+}
+
+.tulisan12{
+  position: absolute;
+width: 442px;
+height: 120px;
+left: 385px;
+bottom: -800px;
+z-index: 1;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 60px;
+
+color: #3B3B3B;
+}
+
+.tulisan13{
+  position: absolute;
+width: 437px;
+height: 60px;
+left: 1050px;
+bottom: -750px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.buttonc{
+  position: absolute;
+width: 136px;
+height: 48px;
+left: 1050px;
+bottom: -800px;
+z-index: 1;
+padding: 7px 7px;
+font-weight: 600px;
+
+color:#ffffff;
+background: #744FC6;
+box-shadow: 0px 10px 10px rgba(116, 79, 198, 0.25);
+border-radius: 8px;
+}
+
+.tulisan14{
+  position: absolute;
+width: 455px;
+height: 55px;
+left: 550px;
+bottom: -1000px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 55px;
+
+text-align: center;
+
+color: #3B3B3B;
+}
+
+.gambar5{
+  position: absolute;
+width: 656px;
+height: 426px;
+left: 830px;
+bottom: -1500px;
+
+border-radius: 16px;
+}
+
+.gambar6{
+  position: absolute;
+width: 768px;
+height: 280px;
+left: 200px;
+bottom: -1300px;
+z-index: 1;
+
+box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+border-radius: 16px;
+}
+
+.tulisan15{
+  position: absolute;
+width: 77px;
+height: 20px;
+left: 250px;
+bottom: -1100px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #3B3B3B;
+}
+
+.tulisan16{
+  position: absolute;
+width: 686px;
+height: 60px;
+left: 250px;
+bottom: -1225px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #3B3B3B;
+}
+
+.tulisan17{
+  position: absolute;
+width: 297px;
+height: 20px;
+left: 250px;
+bottom: -1125px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 20px;
+
+color: #744FC6;
+}
+
+.tulisan18{
+  position: absolute;
+width: 100px;
+height: 20px;
+left: 625px;
+bottom: -1280px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+
+color: #3B3B3B;
+}
+
+.tulisan19{
+  position: absolute;
+width: 97px;
+height: 20px;
+left: 720px;
+bottom: -1280px;
+z-index: 1;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #3B3B3B;
+}
+
+.gambar7{
+  position: absolute;
+width: 2577px;
+height: 1428.13px;
+left: -392px;
+bottom: -3000px;
+}
+
+.tulisan20{
+  position: absolute;
+width: 302px;
+height: 55px;
+left: 640px;
+bottom: -1650px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 55px;
+
+text-align: center;
+
+color: #3B3B3B;
+}
+
+.tulisan21{
+  position: absolute;
+width: 500px;
+height: 20px;
+left: 550px;
+bottom: -1670px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #3B3B3B;
+}
